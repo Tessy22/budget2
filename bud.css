@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.cable{
+    background-color: rgb(51, 94, 147);
+    height: 70vh;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    color: white;
+}
+.yelp{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 0px;
+}
+.bronx{
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    height: 70vh;
+}
+.spaces{
+    display: grid;
+    border-bottom: 1px solid #000;
+    background-color: rgb(219, 224, 219);
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-weight: 500;
+}
+body{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.moot{
+    text-align: center;
+}
+.belt{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    background-color: rgb(219, 224, 219);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noob{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    grid-row: 1 / span 2;
+    background-color: rgb(219, 224, 219);
+}
+.door{
+    display: flex;
+}
+.boon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boon h3{
+    font-family: cursive;
+    font-size: x-large;
+}
+.boon p{
+    font-family: cursive;
+}
+.dock{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.mist{
+    grid-row: 1 / span 2;
+}
+.mist h3{
+    font-family: cursive;
+    font-size: x-large;
+}
+.mist p{
+    font-family: cursive;
+    font-size: x-large;
+}
+.fusss{
+    width: 100%;
+    background-color:rgb(51, 94, 147);
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+    text-size-adjust: 70%;
+    
+}
+.dock button{
+    height: 40%;
+    border-radius: 40%;
+    width: 20%;
+}
+.dock p{
+    font-family: cursive;
+    text-align: center;
+}
+.door button{
+    height: 60%;
+    font-family: cursive;
+    background-color: rgb(219, 224, 219);
+    border-color:rgb(219, 224, 219);
+}
